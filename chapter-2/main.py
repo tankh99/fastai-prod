@@ -1,7 +1,7 @@
 import gradio as gr
 from fastai.vision.all import *
 
-learn = load_learner('export.pkl')
+learn = load_learner('pickles/bear-classifier.pkl')
 
 categories = ("black", "grizzly", "teddy")
 
